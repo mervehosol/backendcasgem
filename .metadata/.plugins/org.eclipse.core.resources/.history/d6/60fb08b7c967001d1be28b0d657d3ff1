@@ -1,0 +1,14 @@
+package kodlama.io.northwind.dataAccess.abstracts;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import kodlama.io.northwind.business.responses.employees.GetAllEmployeesResponse;
+import kodlama.io.northwind.entities.Employee;
+
+public interface EmployeeRepository extends JpaRepository<Employee, Integer>{
+
+	List<GetAllEmployeesResponse> getAll();
+
+}

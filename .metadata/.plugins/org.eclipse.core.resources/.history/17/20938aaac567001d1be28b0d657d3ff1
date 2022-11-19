@@ -1,0 +1,5 @@
+package kodlama.io.northwind.business.abstracts;
+
+public interface OrderService {
+
+}

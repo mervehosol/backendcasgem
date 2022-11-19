@@ -1,0 +1,5 @@
+package kodlama.io.northwind.webApi.controllers;
+
+public class ProductController {
+
+}
