@@ -9,9 +9,7 @@ import kodlama.io.northwind.business.abstracts.OrderService;
 import kodlama.io.northwind.business.requests.orders.CreateOrderRequest;
 import kodlama.io.northwind.business.responses.GetOrderResponse;
 import kodlama.io.northwind.business.responses.orders.GetAllOrdersResponse;
-import kodlama.io.northwind.dataAccess.abstracts.EmployeeRepository;
 import kodlama.io.northwind.dataAccess.abstracts.OrderRepository;
-import kodlama.io.northwind.entities.Employee;
 import kodlama.io.northwind.entities.Order;
 
 @Service

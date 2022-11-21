@@ -1,0 +1,5 @@
+package kodlama.io.northwind.business.responses.categories;
+
+public class UpdateCategoryResponse {
+
+}

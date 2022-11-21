@@ -1,0 +1,21 @@
+package kodlama.io.northwind.business.concretes;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import kodlama.io.northwind.business.abstracts.CategoryService;
+import kodlama.io.northwind.business.responses.categories.GetAllCategoriesResponse;
+
+@Service
+public class CategoryManager implements CategoryService {
+
+	@Override
+	public List<GetAllCategoriesResponse> getAll() {
+		
+		return null;
+	}
+	
+	
+	
+}

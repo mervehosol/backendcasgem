@@ -1,0 +1,16 @@
+package kodlama.io.northwind.business.abstracts;
+
+import java.util.List;
+
+import kodlama.io.northwind.business.requests.categories.UpdateCategoryRequest;
+import kodlama.io.northwind.business.responses.categories.CreateCategoryResponse;
+import kodlama.io.northwind.business.responses.categories.GetAllCategoriesResponse;
+
+public interface CategoryService {
+	List <GetAllCategoriesResponse> getAll();
+	CreateCategoryResponse add(CreateCategoryResponse createCategoryResponse);
+	UpdateCategorytResponse update (UpdateCategoryRequest updateCategoryRequest);
+	DeleteCategoryResponse deleteById(int id);
+	
+
+}

@@ -11,10 +11,10 @@ import kodlama.io.northwind.business.responses.employees.GetAllEmployeesResponse
 import kodlama.io.northwind.dataAccess.abstracts.EmployeeRepository;
 import kodlama.io.northwind.entities.Employee;
 
-@Service
+@Service     
 public class EmployeeManager implements EmployeeService{
 
-	private EmployeeRepository employeeRepository;
+	private EmployeeRepository employeeRepository;//database ile iletişim kursun diye
 	
 	public EmployeeManager(EmployeeRepository employeeRepository) {
 		super();

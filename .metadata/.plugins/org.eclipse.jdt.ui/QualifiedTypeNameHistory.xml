@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="kodlama.io.northwind.dataAccess.abstracts.ProductRepository"/>
-    <fullyQualifiedTypeName name="kodlama.io.northwind.dataAccess.abstracts.CategoryRepository"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.dataAccess.abstracts.OrderRepository"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.dataAccess.abstracts.EmployeeRepository"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.Locale.Category"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.entities.Employee"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.entities.Product"/>
@@ -32,7 +29,6 @@
     <fullyQualifiedTypeName name="kodlama.io.northwind.business.requests.products.CreateProductRequest"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.business.abstracts.EmployeeService"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.business.requests.orders.CreateOrderRequest"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.entities.Category"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.business.responses.orders.GetAllOrdersResponse"/>
@@ -40,9 +36,20 @@
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.business.responses.GetOrderResponse"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.business.responses.employees.GetAllEmployeesResponse"/>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.business.requests.categories.CreateCategoryRequest"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.business.abstracts.CategoryService"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.dataAccess.abstracts.CategoryRepository"/>
+    <fullyQualifiedTypeName name="java.util.Locale.Category"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.business.responses.categories.GetAllCategoriesResponse"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.business.requests.categories.UpdateCategoryRequest"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.business.responses.categories.CreateCategoryResponse"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.business.responses.categories.UpdateCategoryResponse"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.business.responses.categories.DeleteCategoryResponse"/>
 </qualifiedTypeNameHistroy>
