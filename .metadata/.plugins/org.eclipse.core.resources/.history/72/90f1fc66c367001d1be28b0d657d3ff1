@@ -1,5 +1,0 @@
-package kodlama.io.northwind.business.requests.products;
-
-public class Create {
-
-}

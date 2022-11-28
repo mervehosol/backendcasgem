@@ -1,5 +1,0 @@
-package kodlama.io.northwind.dataAccess.abstracts;
-
-public interface OrderRepository {
-
-}

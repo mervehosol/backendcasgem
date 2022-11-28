@@ -13,16 +13,15 @@ import kodlama.io.northwind.business.requests.products.CreateProductRequest;
 import kodlama.io.northwind.business.responses.products.CreateProductResponse;
 import kodlama.io.northwind.business.responses.products.GetAllProductsResponse;
 import kodlama.io.northwind.business.responses.products.GetProductResponse;
+import lombok.AllArgsConstructor;
 
 @RestController
 @RequestMapping("/api/products")
+@AllArgsConstructor
 public class ProductController {
 	private ProductService productService;
 
-	public ProductController(ProductService productService) {
-		super();
-		this.productService = productService;
-	}
+
 
 	@GetMapping("/getall")
 	public List<GetAllProductsResponse> getAllProductsResponse() {
@@ -38,8 +37,10 @@ public class ProductController {
 	public GetProductResponse getById(int id) {
 		return productService.getById(id);
 	}
-	@PostMapping("/add")
+	@PostMapping("/add") //
 	public CreateProductResponse add(@RequestBody CreateProductRequest createProductRequest) {
 		return productService.add(createProductRequest);
 	}
+	
+	
 }

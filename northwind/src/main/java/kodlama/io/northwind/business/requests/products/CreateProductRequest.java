@@ -14,4 +14,5 @@ public class CreateProductRequest {
 	private double unitPrice;
 	private int unitsInStock;
 
+
 }

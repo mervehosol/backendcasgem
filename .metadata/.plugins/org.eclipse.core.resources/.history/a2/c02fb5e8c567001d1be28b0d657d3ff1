@@ -1,8 +1,0 @@
-package kodlama.io.northwind.business.abstracts;
-
-import java.util.List;
-
-public interface OrderService {
-	List<GetAllOrdersResponse> getAll();
-	void add(CreateOrderRequest createOrderRequest);
-}

@@ -1,5 +1,0 @@
-package kodlama.io.northwind.business.requests.employees;
-
-public class GetAllEmployeesResponse {
-
-}
